@@ -20,3 +20,4 @@ console.log(nome3);
 //Não podem conter espaços ou traços.
 //è utilizado o camelCase.
 //Case sensitive (letras maiúsculas e minúsculas fazem diferença).
+//Não pode redeclarar variáveis com LET.
