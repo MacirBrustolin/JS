@@ -20,3 +20,17 @@ console.log(resultado);
 
 console.log('tipo do primeiro número: ', typeof(primeiroNumero));
 console.log('tidpo do segundo numero: ', typeof(segundoNumero));
+
+const nomeEx = 'Macir';
+const sobreNomeEx = 'Brustolin';
+const idade = 25;
+const peso = 65;
+const alturaEmM = 1.85;
+let imc; //peso/(altura*altura)
+let anoNascimento;
+
+imc = peso / (alturaEmM * alturaEmM);
+console.log('O IMC do', nomeEx, sobreNomeEx, 'é: ', imc, '.');
+
+anoNascimento = 2021 - idade;
+console.log(nomeEx, sobreNomeEx, 'nasceu em', anoNascimento,'.');
