@@ -30,7 +30,7 @@ let imc; //peso/(altura*altura)
 let anoNascimento;
 
 imc = peso / (alturaEmM * alturaEmM);
-console.log('O IMC do', nomeEx, sobreNomeEx, 'é: ', imc, '.');
+console.log('O IMC do', nomeEx, sobreNomeEx, 'é:', imc + '.');
 
 anoNascimento = 2021 - idade;
-console.log(nomeEx, sobreNomeEx, 'nasceu em', anoNascimento,'.');
+console.log(`${nomeEx} ${sobreNomeEx} nasceu em ${anoNascimento}.`);
